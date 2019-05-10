@@ -11,11 +11,14 @@ CONFIG += c++17
 # Directories
 
 FORMS += \
-    maindialog.ui
+    maindialog.ui \
+    previewdlg.ui
 
 HEADERS += \
-    maindialog.h
+    maindialog.h \
+    previewdlg.h
 
 SOURCES += \
     main.cpp \
-    maindialog.cpp
+    maindialog.cpp \
+    previewdlg.cpp

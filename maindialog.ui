@@ -34,6 +34,20 @@
       </widget>
      </item>
      <item>
+      <widget class="QPushButton" name="btn_clear">
+       <property name="text">
+        <string> 清空缓存</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_preview">
+       <property name="text">
+        <string>预览</string>
+       </property>
+      </widget>
+     </item>
+     <item>
       <widget class="QPushButton" name="btn_open">
        <property name="text">
         <string>打开文件夹</string>

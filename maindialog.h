@@ -59,12 +59,18 @@ private slots:
 
     void on_btn_open_clicked();
 
+    void on_btn_preview_clicked();
+
+    void on_btn_clear_clicked();
+
 private:
     Ui::MainDialog *ui;
 
-    bool started = false;
     std::vector<QLabel*>  labels;
     std::atomic<int> pic_count = 0;
+
+    QString last_key = "";
+    int last_index = 0;
 };
 
 #endif // MAINDIGLOG_H
